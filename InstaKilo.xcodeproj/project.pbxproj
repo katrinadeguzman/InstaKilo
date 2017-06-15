@@ -11,10 +11,10 @@
 		D7CE2BEC1EF20AED00B032C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2BEB1EF20AED00B032C4 /* AppDelegate.m */; };
 		D7CE2BEF1EF20AED00B032C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2BEE1EF20AED00B032C4 /* ViewController.m */; };
 		D7CE2BF21EF20AED00B032C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2BF01EF20AED00B032C4 /* Main.storyboard */; };
-		D7CE2BF41EF20AED00B032C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2BF31EF20AED00B032C4 /* Assets.xcassets */; };
 		D7CE2BF71EF20AED00B032C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2BF51EF20AED00B032C4 /* LaunchScreen.storyboard */; };
 		D7CE2C021EF20AEE00B032C4 /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2C011EF20AEE00B032C4 /* InstaKiloTests.m */; };
 		D7CE2C0D1EF20AEE00B032C4 /* InstaKiloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2C0C1EF20AEE00B032C4 /* InstaKiloUITests.m */; };
+		D7CE2C1E1EF2111100B032C4 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2C1D1EF2111100B032C4 /* MyCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		D7CE2BED1EF20AED00B032C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7CE2BEE1EF20AED00B032C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7CE2BF11EF20AED00B032C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D7CE2BF31EF20AED00B032C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CE2BF61EF20AED00B032C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CE2BF81EF20AED00B032C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CE2BFD1EF20AEE00B032C4 /* InstaKiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,8 @@
 		D7CE2C081EF20AEE00B032C4 /* InstaKiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE2C0C1EF20AEE00B032C4 /* InstaKiloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloUITests.m; sourceTree = "<group>"; };
 		D7CE2C0E1EF20AEE00B032C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CE2C1C1EF2111000B032C4 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		D7CE2C1D1EF2111100B032C4 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				D7CE2BEA1EF20AED00B032C4 /* AppDelegate.h */,
+				D7CE2C1C1EF2111000B032C4 /* MyCollectionViewController.h */,
+				D7CE2C1D1EF2111100B032C4 /* MyCollectionViewController.m */,
 				D7CE2BEB1EF20AED00B032C4 /* AppDelegate.m */,
 				D7CE2BED1EF20AED00B032C4 /* ViewController.h */,
 				D7CE2BEE1EF20AED00B032C4 /* ViewController.m */,
 				D7CE2BF01EF20AED00B032C4 /* Main.storyboard */,
-				D7CE2BF31EF20AED00B032C4 /* Assets.xcassets */,
 				D7CE2BF51EF20AED00B032C4 /* LaunchScreen.storyboard */,
 				D7CE2BF81EF20AED00B032C4 /* Info.plist */,
 				D7CE2BE71EF20AED00B032C4 /* Supporting Files */,
@@ -249,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CE2BF71EF20AED00B032C4 /* LaunchScreen.storyboard in Resources */,
-				D7CE2BF41EF20AED00B032C4 /* Assets.xcassets in Resources */,
 				D7CE2BF21EF20AED00B032C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CE2C1E1EF2111100B032C4 /* MyCollectionViewController.m in Sources */,
 				D7CE2BEF1EF20AED00B032C4 /* ViewController.m in Sources */,
 				D7CE2BEC1EF20AED00B032C4 /* AppDelegate.m in Sources */,
 				D7CE2BE91EF20AED00B032C4 /* main.m in Sources */,

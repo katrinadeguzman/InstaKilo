@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CFFFFF2DE48AD473D6578759F9B6B9BDB80F30FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CFFFFF2DE48AD473D6578759F9B6B9BDB80F30FC" : 9223372036854775807,
+    "F07CC548DD3E34007463AC61D26DEA428C80D33C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82896136-602B-4CEE-8AF6-BC35B4CA2E0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CFFFFF2DE48AD473D6578759F9B6B9BDB80F30FC" : "InstaKilo\/",
+    "F07CC548DD3E34007463AC61D26DEA428C80D33C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "InstaKilo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "InstaKilo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katrinadeguzman\/InstaKilo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CFFFFF2DE48AD473D6578759F9B6B9BDB80F30FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katrinadeguzman\/TipCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F07CC548DD3E34007463AC61D26DEA428C80D33C"
+    }
+  ]
+}

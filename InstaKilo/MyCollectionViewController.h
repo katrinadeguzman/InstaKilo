@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MyCollectionViewController.h
 //  InstaKilo
 //
 //  Created by Katrina de Guzman on 2017-06-14.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MyCollectionViewController : UICollectionViewController
 
 @end
-
-
